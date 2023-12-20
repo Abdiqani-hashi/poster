@@ -1,16 +1,22 @@
 
 
-* {
-    box-sizing: border-box;
-    
+
+
+
+
+/*Background of hero section*/
+.hero{
+    background-image: url(images/poster.png);
+    background-position: bottom;
+    height: 500px;
+    position: relative;
+    margin-bottom: 4rem;
 }
+.nav-menu{
+    position: absolute;
+    left: 2rem;
+    top:2rem;
 
-body{
-
-    margin: 0;
-  
-  
-   
 }
 
 
