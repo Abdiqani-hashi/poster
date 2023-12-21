@@ -1,0 +1,46 @@
+h1{
+    color:var(--white);
+    text-align:center;
+    margin-bottom: 4rem;
+}
+.checkingout{
+    color: var(--white);
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 0.5rem;
+    font-size: 1rem;
+   
+    margin: 4rem;
+}
+.checkingout .middle{
+    text-align: center;
+}
+.checkingout .last{
+    text-align: end;
+}
+.checkingout .headrow{
+    background-color: var(--red);
+    opacity: 0.8;
+}
+.checkingout .total-row{
+    border-top: 1px solid var(--white);
+    display: flex;
+    font-weight: 700px;
+    grid-column: 1/4;
+    justify-content: space-between;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: flex-end;
+    padding-inline: 4rem;
+    padding-bottom: 4rem;
+}
+.checkout-btn{
+    background-color: var(--red);
+    border: none;
+    border-radius: 5px;
+    color: var(--white);
+    font-size: 2rem;
+    padding: 5px 10px;
+}

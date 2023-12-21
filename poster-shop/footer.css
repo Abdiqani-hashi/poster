@@ -1,0 +1,29 @@
+.footer{
+    background-color: #333333;
+    padding-bottom: 4rem;
+    padding-top: 2rem;
+
+  
+
+.footer-container{
+    color:var(--white);
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-inline: 4rem;
+    
+  
+}
+
+.footer-container p{
+  
+    font-size: 0.8rem;
+     
+}
+
+.footer-container p{
+  
+    font-size: 0.8rem;
+     
+}
